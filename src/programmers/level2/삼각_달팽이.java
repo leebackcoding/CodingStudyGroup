@@ -5,13 +5,6 @@ import java.util.List;
 
 public class 삼각_달팽이 {
 
-    public static void main(String[] args) {
-        int[] res = solution(5);
-        for(int i = 0; i < res.length; i++){
-            System.out.print(res[i] + " ");
-        }
-    }
-
     public static boolean[][] visited;
     public static int[] solution(int n) {
         int[][] arr = new int[n][n];
