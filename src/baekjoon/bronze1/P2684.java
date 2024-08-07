@@ -9,7 +9,7 @@ public class P2684 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        String[] coinCombi = {"HHH", "HHT", "HTH", "HTT", "THH", "THT", "TTH", "TTT"};
+        String[] coinCombi = {"TTT", "TTH", "THT", "THH", "HTT", "HTH", "HHT", "HHH"};
 
         for (int i = 0; i < n; i++) {
             String str = br.readLine();
