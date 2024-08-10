@@ -3,6 +3,9 @@ package baekjoon.bronze1;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * 동전 문제
+ */
 public class P2684 {
     //뒤뒤뒤, 뒤뒤앞, 뒤앞뒤, 뒤앞앞, 앞뒤뒤, 앞뒤앞, 앞앞뒤, 앞앞앞
     public static void main(String[] args) throws Exception {

@@ -3,6 +3,9 @@ package baekjoon.bronze1;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * 가장 빈도수가 높은 문자 구하기
+ */
 public class P1157 {
     public static void main(String[] args) throws Exception {
         // Scanner sc = new Scanner(System.in);
