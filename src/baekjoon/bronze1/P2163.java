@@ -14,6 +14,7 @@ public class P2163 {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
+
         int answer = (n - 1) + n * (m - 1);
 
         System.out.println(answer);
