@@ -3,12 +3,10 @@ package baekjoon.bronze1;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class P1333 {
+// 8월 20일 코테 문제
+public class P1333_240820 {
     public static void main(String[] args) throws IOException {
         // 시간 효율성을 위해서 BufferedReader 를 사용한다.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
