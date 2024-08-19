@@ -11,7 +11,9 @@ public class P1157 {
         String s = br.readLine().toLowerCase();
 
         int[] arr = new int[26];
-        for(char c : s.toCharArray()) {
+        char[] charArray = s.toCharArray();
+
+        for(char c : charArray) {
             arr[(int) (c - 'a')]++;
         }
 
